@@ -33,13 +33,13 @@ This project serves as a template for organizing hardware projects with code, ph
 ## Visual Guide
 
 ### Board Overview
-![Board top view](images/board-top.jpg)
+![Board top view](images/board-top.jpeg)
 
 ### LED Close-up
-![LED blinking](images/led-closeup.jpg)
+![LED blinking](images/led-closeup.jpeg)
 
 ### Side View
-![Board side angle](images/board-side.jpg)
+![Board side angle](images/board-side.jpeg)
 
 ---
 
