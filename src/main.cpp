@@ -10,10 +10,10 @@ void loop() {
   // This means LOW turns it ON, and HIGH turns it OFF.
   
   digitalWrite(LED_BUILTIN, LOW);   // Turn the onboard LED ON
-  delay(50);                        // Wait 50ms
+  delay(100);                        // Wait 100ms
   
   digitalWrite(LED_BUILTIN, HIGH);  // Turn the onboard LED OFF
-  delay(50);                        // Wait 50ms
+  delay(100);                        // Wait 100ms
   
-  // Total cycle: 100ms = 10Hz (10 full blinks per second)
+  // Total cycle: 200ms = 5Hz (5 full blinks per second)
 }
