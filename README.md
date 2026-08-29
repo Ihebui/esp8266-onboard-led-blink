@@ -1,12 +1,15 @@
 # ESP8266 Onboard LED Blink
 
-> Practice project: 10Hz onboard LED blinker to learn proper GitHub repo structure for future ESP8266 projects.
+> Practice project: 5Hz onboard LED blinker to learn proper GitHub repo structure for future ESP8266 projects.
 
 ---
 
 ## What It Does
 
-Blinks the onboard blue LED on a NodeMCU ESP8266 at 10Hz (50ms on, 50ms off).  
+Blinks the onboard blue LED on a NodeMCU ESP8266 at **5Hz** (100ms on, 100ms off).  
+
+Originally started as 10Hz (50ms delay), changed to 5Hz in [commit a25d380](https://github.com/Ihebui/esp8266-onboard-led-blink/commit/a25d380) for better visibility.
+
 This project serves as a template for organizing hardware projects with code, photos, and documentation.
 
 ---
