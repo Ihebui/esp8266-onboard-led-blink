@@ -50,6 +50,7 @@ This project serves as a template for organizing hardware projects with code, ph
 
 This project uses only the onboard LED — no external wiring required.
 
+```text
 ESP8266 NodeMCU
 ┌─────────────┐
 │         LED │◄── GPIO2 (D4)
@@ -57,7 +58,7 @@ ESP8266 NodeMCU
 │             │
 │  USB        │
 └─────────────┘
-
+```
 
 ---
 
@@ -86,23 +87,29 @@ See [`platformio.ini`](platformio.ini) for full configuration.
 
 ```cpp
 digitalWrite(LED_BUILTIN, LOW);   // LED ON  (Active-Low)
-delay(50);                        // 50ms
+delay(100);                       // 100ms
 digitalWrite(LED_BUILTIN, HIGH);  // LED OFF
-delay(50);                        // 50ms
-// Cycle repeats → 10Hz blink
+delay(100);                       // 100ms
+// Cycle repeats → 5Hz blink
+```
 
-Frequency Note
-Period: 50ms ON + 50ms OFF = 100ms
-Frequency: 1 / 0.1s = 10Hz (10 full blinks per second)
-For 20Hz, use delay(25) for both ON and OFF.
+### Frequency Note
+*   **Period:** 100ms ON + 100ms OFF = 200ms
+*   **Frequency:** 1 / 0.2s = 5Hz (5 full blinks per second)
 
-Files
-Table
-File	Description
-src/main.cpp	Main source code
-platformio.ini	PlatformIO build configuration
-images/	Project photos
-schematic/	Wiring diagrams (N/A for this project)
+---
 
-License
+## Files
+
+| File | Description |
+|------|-------------|
+| `src/main.cpp` | Main source code |
+| `platformio.ini` | PlatformIO build configuration |
+| `images/` | Project photos |
+| `schematic/` | Wiring diagrams (N/A for this project) |
+
+---
+
+## License
+
 MIT — Use this as a template for your own projects.
